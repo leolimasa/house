@@ -1,0 +1,193 @@
+{
+    "default": {
+        "author": "Leo",
+        "firstScene": "master_bedroom",
+		"autoLoad": true,
+		"vaov": 60
+    },
+    
+    "scenes": {
+		
+        "bathroom": {	
+            "title": "Bathroom",
+            "panorama": "./bathroom.jpg",
+			"hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 0,
+                    "type": "scene",
+                    "text": "Hallway",
+                    "sceneId": "hallway"
+                }
+			]
+		},
+		
+		"kitchen": {
+            "title": "Kitchen",
+            "panorama": "./kitchen.jpg",
+			"hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 155,
+                    "type": "scene",
+                    "text": "Deck",
+                    "sceneId": "deck"
+                },
+				
+                {
+                    "pitch": -5,
+                    "yaw": 200,
+                    "type": "scene",
+                    "text": "Living room",
+                    "sceneId": "livingroom"
+                }
+			]
+		},
+		
+        "livingroom": {	
+            "title": "Living Room",
+            "panorama": "./livingroom.jpg",
+			"hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 260,
+                    "type": "scene",
+                    "text": "Entrance",
+                    "sceneId": "entrance"
+                },
+				
+                {
+                    "pitch": 0,
+                    "yaw": 0,
+                    "type": "scene",
+                    "text": "Kitchen",
+                    "sceneId": "kitchen"
+                }
+			]
+        },
+		
+		"bedroom": {
+            "title": "Bedroom",
+            "panorama": "./bedroom.jpg",
+			"hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 180,
+                    "type": "scene",
+                    "text": "Hallway",
+                    "sceneId": "hallway"
+                }
+			]
+		},
+		
+		"entrance": {
+            "title": "Entrance",
+            "panorama": "./entrance.jpg",
+			"hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 160,
+                    "type": "scene",
+                    "text": "Living room",
+                    "sceneId": "livingroom"
+                },
+				
+                {
+                    "pitch": 0,
+                    "yaw": -120,
+                    "type": "scene",
+                    "text": "Go upstairs",
+                    "sceneId": "hallway"
+                }
+			]
+		},
+		
+		"deck": {
+            "title": "Deck",
+            "panorama": "./deck.jpg",
+			"hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 90,
+                    "type": "scene",
+                    "text": "Kitchen",
+                    "sceneId": "kitchen"
+                }
+			]
+		},
+		
+		"hallway": {
+            "title": "Hallway",
+            "panorama": "./hallway.jpg",
+			"hotSpots": [
+                {
+                    "pitch": -25,
+                    "yaw": -10,
+                    "type": "scene",
+                    "text": "Go down",
+                    "sceneId": "entrance"
+				},
+				
+                {
+                    "pitch": 0,
+                    "yaw": 90,
+                    "type": "scene",
+                    "text": "Bedroom",
+                    "sceneId": "bedroom"
+                },
+				
+                {
+                    "pitch": 0,
+                    "yaw": 170,
+                    "type": "scene",
+                    "text": "Master Bedroom",
+                    "sceneId": "master_bedroom"
+                },
+				
+                {
+                    "pitch": 0,
+                    "yaw": 180,
+                    "type": "scene",
+                    "text": "Bathroom",
+                    "sceneId": "bathroom"
+                }
+			]
+		},
+		
+		"master_bedroom": {
+            "title": "Master bedroom",
+            "panorama": "./master_bedroom.jpg",
+			"hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 100,
+                    "type": "scene",
+                    "text": "Hallway",
+                    "sceneId": "hallway"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 140,
+                    "type": "scene",
+                    "text": "Master Bathroom",
+                    "sceneId": "master_bathroom"
+                }
+			]
+		},
+		
+		"master_bathroom": {
+            "title": "Master bathroom",
+            "panorama": "./master_bathroom.jpg",
+			"hotSpots": [
+	            {
+	                "pitch": 0,
+	                "yaw": 150,
+	                "type": "scene",
+	                "text": "Master Bedroom",
+	                "sceneId": "master_bedroom"
+	            }
+			]
+            
+		}
+    }
+}
