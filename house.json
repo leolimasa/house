@@ -1,7 +1,7 @@
 {
     "default": {
         "author": "Leo",
-        "firstScene": "master_bedroom",
+        "firstScene": "entrance",
 		"autoLoad": true,
 		"vaov": 60
     },
@@ -16,7 +16,7 @@
                     "pitch": 0,
                     "yaw": 0,
                     "type": "scene",
-                    "text": "Hallway",
+                    "text": "Lave as maos antes de sair.",
                     "sceneId": "hallway"
                 }
 			]
@@ -30,7 +30,7 @@
                     "pitch": 0,
                     "yaw": 155,
                     "type": "scene",
-                    "text": "Deck",
+                    "text": "Pra fora",
                     "sceneId": "deck"
                 },
 				
@@ -38,7 +38,7 @@
                     "pitch": -5,
                     "yaw": 200,
                     "type": "scene",
-                    "text": "Living room",
+                    "text": "Sala",
                     "sceneId": "livingroom"
                 }
 			]
@@ -52,7 +52,7 @@
                     "pitch": 0,
                     "yaw": 260,
                     "type": "scene",
-                    "text": "Entrance",
+                    "text": "Entrada",
                     "sceneId": "entrance"
                 },
 				
@@ -60,7 +60,7 @@
                     "pitch": 0,
                     "yaw": 0,
                     "type": "scene",
-                    "text": "Kitchen",
+                    "text": "Escravisaura",
                     "sceneId": "kitchen"
                 }
 			]
@@ -74,7 +74,7 @@
                     "pitch": 0,
                     "yaw": 180,
                     "type": "scene",
-                    "text": "Hallway",
+                    "text": "Hall",
                     "sceneId": "hallway"
                 }
 			]
@@ -88,7 +88,7 @@
                     "pitch": 0,
                     "yaw": 160,
                     "type": "scene",
-                    "text": "Living room",
+                    "text": "Sala",
                     "sceneId": "livingroom"
                 },
 				
@@ -96,7 +96,7 @@
                     "pitch": 0,
                     "yaw": -120,
                     "type": "scene",
-                    "text": "Go upstairs",
+                    "text": "Subir pra cima",
                     "sceneId": "hallway"
                 }
 			]
@@ -110,7 +110,7 @@
                     "pitch": 0,
                     "yaw": 90,
                     "type": "scene",
-                    "text": "Kitchen",
+                    "text": "Ta muito frio",
                     "sceneId": "kitchen"
                 }
 			]
@@ -124,7 +124,7 @@
                     "pitch": -25,
                     "yaw": -10,
                     "type": "scene",
-                    "text": "Go down",
+                    "text": "Descer pra baixo",
                     "sceneId": "entrance"
 				},
 				
@@ -132,7 +132,7 @@
                     "pitch": 0,
                     "yaw": 90,
                     "type": "scene",
-                    "text": "Bedroom",
+                    "text": "Quartinho",
                     "sceneId": "bedroom"
                 },
 				
@@ -140,7 +140,7 @@
                     "pitch": 0,
                     "yaw": 170,
                     "type": "scene",
-                    "text": "Master Bedroom",
+                    "text": "Quartao",
                     "sceneId": "master_bedroom"
                 },
 				
@@ -148,7 +148,7 @@
                     "pitch": 0,
                     "yaw": 180,
                     "type": "scene",
-                    "text": "Bathroom",
+                    "text": "Cagatorium",
                     "sceneId": "bathroom"
                 }
 			]
@@ -162,14 +162,14 @@
                     "pitch": 0,
                     "yaw": 100,
                     "type": "scene",
-                    "text": "Hallway",
+                    "text": "Hall",
                     "sceneId": "hallway"
                 },
                 {
                     "pitch": 0,
                     "yaw": 140,
                     "type": "scene",
-                    "text": "Master Bathroom",
+                    "text": "Cagatorium Supremus",
                     "sceneId": "master_bathroom"
                 }
 			]
@@ -183,7 +183,7 @@
 	                "pitch": 0,
 	                "yaw": 150,
 	                "type": "scene",
-	                "text": "Master Bedroom",
+	                "text": "Tomar leite e dormir",
 	                "sceneId": "master_bedroom"
 	            }
 			]
